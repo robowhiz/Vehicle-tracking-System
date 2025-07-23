@@ -34,13 +34,13 @@ error = 0
 
 ArduSer = serial.Serial("/dev/ttyAMA3", 57600)
 
-PROJECT_ID = "smart-vehicle-tracking-s-dbf99"
+PROJECT_ID = "your-firebase-project-id"
 DATABASE_NAME = "(default)"
 COLLECTION_NAME = "vehicles"
-your-firebase-project-id = "XYZ789"
+VEHICLE_ID = "your-vehicle-id"
 FIRESTORE_URL = f"https://firestore.googleapis.com/v1/projects/{PROJECT_ID}/databases/{DATABASE_NAME}/documents:commit"
-FIREBASE_URL = f"https://smart-vehicle-tracking-s-dbf99-default-rtdb.firebaseio.com/VehicleLocation/{your-firebase-project-id}.json"
-FINGERPRINT_URL = f"https://firestore.googleapis.com/v1/projects/{PROJECT_ID}/databases/{DATABASE_NAME}/documents/{COLLECTION_NAME}/{your-firebase-project-id}/"
+FIREBASE_URL = f"https://smart-vehicle-tracking-s-dbf99-default-rtdb.firebaseio.com/VehicleLocation/{VEHICLE_ID}.json"
+FINGERPRINT_URL = f"https://firestore.googleapis.com/v1/projects/{PROJECT_ID}/databases/{DATABASE_NAME}/documents/{COLLECTION_NAME}/{VEHICLE_ID}/"
 NUMBER_OF_DAYS = 100
 
 sim = SIMA7672S()
