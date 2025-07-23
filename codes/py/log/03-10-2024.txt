@@ -1,0 +1,1 @@
+{"heading": {"integerValue": "270"}, "latitude": {"doubleValue": 0}, "count": {"doubleValue": 0.0}, "timestamp": {"timestampValue": "2024-10-03T10:41:16Z"}, "batteryLevel": {"integerValue": "85"}, "longitude": {"doubleValue": 0}},
