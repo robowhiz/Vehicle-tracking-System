@@ -1,5 +1,19 @@
 # Smart Vehicle Tracking & Security System
 
+## Table of Contents
+- [Overview](#overview)
+- [Image](#image)
+- [Flow Chart](#flow-chart)
+- [Features](#features)
+- [System Architecture](#system-architecture)
+- [Hardware Requirements](#hardware-requirements)
+- [Software & Libraries](#software--libraries)
+- [Setup & Installation](#setup--installation)
+- [Wiring Guide](#wiring-guide)
+- [How to Use](#how-to-use)
+- [Notes](#notes)
+- [License](#license)
+
 ## Overview
 
 This project implements a comprehensive vehicle security and tracking system using a Raspberry Pi and an Arduino Nano. It integrates biometric authentication, alcohol detection, and real-time GPS tracking to enhance vehicle safety and security. The system verifies the driver's identity via a fingerprint sensor and checks for alcohol intoxication before allowing the vehicle's ignition to be turned on.
